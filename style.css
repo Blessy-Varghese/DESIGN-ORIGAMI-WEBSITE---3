@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+.bodyimg{
+    background-image: url("images/main2.png");
+    height:400px;
+    width:100%;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+   
+}
+
+.bodyimg,h2{
+    font-size: xx-large;
+}
+
+.bodyimg,h3{
+    font-size: large;
+    font-style: italic;
+}
+.grid{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.grid img{
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border: 2px solid maroon;
+    border-radius: 20px;
+
+    background-color:#FFFFFF;
+
+    width: 320px;
+    font-family: fantasy;
+
+    width: 300px;
+    height: 500px;
+
+    padding: 1%;
+
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+body{
+    background-color:#F8B195;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    font-family:  Geneva;
+    font-weight: 100;
+    color: aqua;    
+}
